@@ -77,7 +77,7 @@ switch (key) {
 
 5) Wait for the game to end
 ```dart
-await _snakeGame.gameFuture;
+await snakeGame.gameFuture;
 alert('Game over! Score: ${snakeGame.score}');
 ```
 
