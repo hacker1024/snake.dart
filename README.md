@@ -45,6 +45,7 @@ class _SnakeGameWidgetState extends State<SnakeGameWidget> {
   void initState() {
     super.initState();
     _snakeGame = SnakeGame(
+       renderer: _render,
       /* ... */
     );
     _board = _snakeGame.getBoardWithSnake();
